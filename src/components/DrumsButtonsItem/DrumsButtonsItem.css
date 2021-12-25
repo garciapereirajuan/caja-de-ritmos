@@ -1,0 +1,35 @@
+.AppCajaDeRitmos .drum-pad{
+    background: #e5e5e5;
+    margin: 1vh 0 !important;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.4),
+        0px 4px 6px rgba(0,0,0,.4);
+    cursor: pointer;
+    transition: all ease .2s;
+    height: calc(400px / 3.25);
+    width: 30% !important ;
+}
+
+@media (max-width: 700px ){
+    .AppCajaDeRitmos body{
+        font-size: .85em;
+}
+    .AppCajaDeRitmos .drum-pad{
+        min-height: 50px; 
+        height: calc(100vh / 6);
+        font-size: 20px;
+}
+}
+.AppCajaDeRitmos .key{
+    padding: 10px 13px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+    background: #343a40dd;
+    color: #ebf2fa;
+    border-radius: 5px;
+}
+.AppCajaDeRitmos .select{
+    background: #fca311;
+    box-shadow: 0px 0px 1px rgba(0,0,0,.4),
+        0px 1px 2px rgba(0,0,0,.4);
+}
